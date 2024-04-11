@@ -1,0 +1,27 @@
+.container {
+  padding: 20px;
+}
+
+.questionnaireBox {
+  border: 2px solid #ccc;
+  padding: 10px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.questionNumber {
+  font-weight: bold; 
+  margin-bottom: 5px;
+}
+
+.questionText {
+  font-weight: normal; 
+  margin-bottom: 10px;
+}
+
+.saveButton {
+  display: block;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
