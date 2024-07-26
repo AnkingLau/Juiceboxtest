@@ -1,0 +1,125 @@
+/* Home.module.css */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #222737;
+    color: white;
+    height: 844px;
+    width:390px;
+    position: relative;
+}
+.bottomContainer {
+    position: absolute;
+    bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items:right;
+}
+.tomptextImage {
+    margin-bottom: 40px;
+}
+
+.tutorialButton {
+    width: auto;
+    height: auto;
+    position: absolute;
+    bottom: 20px;
+    cursor: pointer;
+    transition: all 0.6s ease;
+    align-items:right;
+}
+
+.tutorialButton:hover {
+    top: 603px;
+    padding: var(--ModuleSpacingsmlmoduletopbtm) var(--ModuleSpacingmoduleleftright) var(--ModuleSpacingsmlmoduletopbtm) var(--ModuleSpacingmoduleleftright);
+    gap: 0px;
+    opacity: 0px;
+
+    content: url('/images/tutorial-button-hover.png');
+}
+
+.textContainer {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+
+}
+
+.textLine {
+    position: relative;
+    white-space: nowrap;
+}
+
+.line1 {
+    width: 292px;
+    height: 16px;
+    top: 177px;
+    left: 20px;
+    font-family: Sohne;
+    font-size: var(--TextSizeCaption);
+    font-weight: 400;
+    line-height: 16.2px;
+    letter-spacing: 0.02em;
+    text-align: left;
+
+}
+
+.line2 {
+    width: 138px;
+    height: 16px;
+    top: 218px;
+    left: 223px;
+    font-family: Sohne;
+    font-size: var(--TextSizeCaption);
+    font-weight: 400;
+    line-height: 16.2px;
+    letter-spacing: 0.02em;
+    text-align: center;
+
+}
+
+.line3 {
+    width: 154px;
+    height: 16px;
+    top: 279px;
+    left: 20px;
+    font-family: Sohne;
+    font-size: var(--TextSizeCaption);
+    font-weight: 400;
+    line-height: 16.2px;
+    letter-spacing: 0.02em;
+    text-align: left;
+
+}
+
+.line4 {
+    width: 217px;
+    height: 16px;
+    top: 343px;
+    left: 142px;
+    font-family: Sohne;
+    font-size: var(--TextSizeCaption);
+    font-weight: 400;
+    line-height: 16.2px;
+    letter-spacing: 0.02em;
+    text-align: center;
+
+}
+
+.line5 {
+    width: 236px;
+    height: 32px;
+    top: 406px;
+    left: 21px;
+    font-family: Sohne;
+    font-size: var(--TextSizeCaption);
+    font-weight: 400;
+    line-height: 16.2px;
+    letter-spacing: 0.02em;
+    text-align: left;
+
+}
